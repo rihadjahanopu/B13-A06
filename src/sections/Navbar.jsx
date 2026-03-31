@@ -1,7 +1,7 @@
 import { Menu, ShoppingCart, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "../assets/products/logo.svg";
 import { useCart } from "../context/CartContext";
+import logo from "./assets/products/logo.svg";
 
 const Navbar = () => {
 	const [isScrolled, setIsScrolled] = useState(false);
