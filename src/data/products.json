@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AI Writing Pro",
+      "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+      "price": 29,
+      "billing": "monthly",
+      "badge": "Best Seller",
+      "features": [
+        "Unlimited AI generations",
+        "50+ writing templates",
+        "Grammar checker"
+      ],
+      "icon": "src/assets/products/Group.svg"
+    },
+    {
+      "id": 2,
+      "name": "Design Templates Pack",
+      "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+      "price": 49,
+      "billing": "one-time",
+      "badge": "Popular",
+      "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+      "icon": "src/assets/products/design-tool.svg"
+    },
+    {
+      "id": 3,
+      "name": "Premium Stock Assets",
+      "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+      "price": 19,
+      "billing": "monthly",
+      "badge": "New",
+      "features": ["10M+ assets", "Commercial use", "No attribution"],
+      "icon": "src/assets/products/camera.svg"
+    },
+    {
+      "id": 4,
+      "name": "Automation Toolkit",
+      "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+      "price": 79,
+      "billing": "monthly",
+      "badge": "Popular",
+      "features": ["50+ automations", "API access", "Custom workflows"],
+      "icon": "src/assets/products/operation.svg"
+    },
+    {
+      "id": 5,
+      "name": "Resume Builder Pro",
+      "description": "Create professional resumes and cover letters that land interviews.",
+      "price": 15,
+      "billing": "one-time",
+      "badge": "New",
+      "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+      "icon": "src/assets/products/portfolio.svg"
+    },
+    {
+      "id": 6,
+      "name": "Social Media Content Kit",
+      "description": "Complete toolkit for creating engaging social media content across all platforms.",
+      "price": 39,
+      "billing": "monthly",
+      "badge": "Best Seller",
+      "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+      "icon": "src/assets/products/social-media.svg"
+    }
+  ],
+  "pricing": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "Perfect for getting started",
+      "price": 0,
+      "period": "month",
+      "features": [
+        "Access to 10 free tools",
+        "Basic templates",
+        "Community support",
+        "1 project per month"
+      ],
+      "cta": "Get Started Free",
+      "popular": false
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "description": "Best for professionals",
+      "price": 29,
+      "period": "month",
+      "features": [
+        "Access to all premium tools",
+        "Unlimited templates",
+        "Priority support",
+        "Unlimited projects",
+        "Cloud sync",
+        "Advanced analytics"
+      ],
+      "cta": "Start Pro Trial",
+      "popular": true
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "For teams and businesses",
+      "price": 99,
+      "period": "month",
+      "features": [
+        "Everything in Pro",
+        "Team collaboration",
+        "Custom integrations",
+        "Dedicated support",
+        "SLA guarantee",
+        "Custom branding"
+      ],
+      "cta": "Contact Sales",
+      "popular": false
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "number": "01",
+      "title": "Create Account",
+      "description": "Sign up for free in seconds. No credit card required to get started.",
+      "icon": "src/assets/products/account.svg"
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "title": "Choose Products",
+      "description": "Browse our catalog and select the tools that fit your needs.",
+      "icon": "src/assets/products/package.svg"
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "title": "Start Creating",
+      "description": "Download and start using your premium tools immediately.",
+      "icon": "src/assets/products/create.svg"
+    }
+  ],
+  "stats": [
+    {
+      "value": "50K+",
+      "label": "Active Users"
+    },
+    {
+      "value": "200+",
+      "label": "Premium Tools"
+    },
+    {
+      "value": "4.9",
+      "label": "Rating"
+    }
+  ]
+}
