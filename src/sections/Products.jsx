@@ -195,7 +195,6 @@ const Products = () => {
 				{activeTab === "cart" && (
 					<div className="max-w-3xl mx-auto">
 						<div className="bg-gray-50 rounded-2xl border border-gray-200 p-6 shadow-sm">
-							{/* Title */}
 							<h3 className="text-xl font-semibold text-gray-800 mb-6">
 								Your Cart
 							</h3>
