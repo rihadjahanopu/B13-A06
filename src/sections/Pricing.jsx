@@ -132,7 +132,7 @@ const Pricing = () => {
 
 							<button
 								onClick={() => handlePlanSelect(plan)}
-								className={`w-full py-3 rounded-xl font-semibold transition-all  ${
+								className={`w-full py-3 rounded-full font-semibold transition-all  ${
 									plan.popular ?
 										"bg-white text-indigo-600 hover:bg-indigo-50"
 									:	"bg-linear-to-r from-indigo-600 to-purple-600 text-white g-linear-to-r hover:from-indigo-50 hover:to-purple-50 hover:text-indigo-700 hover:border hover:border-indigo-600 "
