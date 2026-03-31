@@ -1,4 +1,4 @@
-import herobanner from "../assets/banner.png";
+import herobanner from "../../public/assets/banner.png";
 import data from "../data/products.json";
 
 const Hero = () => {
