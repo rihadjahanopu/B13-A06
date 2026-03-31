@@ -12,7 +12,7 @@
 				"50+ writing templates",
 				"Grammar checker"
 			],
-			"icon": "./src/assets/products/Group.svg"
+			"icon": "./assets/products/Group.svg"
 		},
 		{
 			"id": 2,
@@ -22,7 +22,7 @@
 			"billing": "one-time",
 			"badge": "Popular",
 			"features": ["2000+ templates", "Monthly updates", "Commercial license"],
-			"icon": "./src/assets/products/design-tool.svg"
+			"icon": "./assets/products/design-tool.svg"
 		},
 		{
 			"id": 3,
@@ -32,7 +32,7 @@
 			"billing": "monthly",
 			"badge": "New",
 			"features": ["10M+ assets", "Commercial use", "No attribution"],
-			"icon": "./src/assets/products/camera.svg"
+			"icon": "./assets/products/camera.svg"
 		},
 		{
 			"id": 4,
@@ -42,7 +42,7 @@
 			"billing": "monthly",
 			"badge": "Popular",
 			"features": ["50+ automations", "API access", "Custom workflows"],
-			"icon": "./src/assets/products/operation.svg"
+			"icon": "./assets/products/operation.svg"
 		},
 		{
 			"id": 5,
@@ -52,7 +52,7 @@
 			"billing": "one-time",
 			"badge": "New",
 			"features": ["100+ templates", "ATS optimization", "Export to PDF"],
-			"icon": "./src/assets/products/portfolio.svg"
+			"icon": "./assets/products/portfolio.svg"
 		},
 		{
 			"id": 6,
@@ -62,7 +62,7 @@
 			"billing": "monthly",
 			"badge": "Best Seller",
 			"features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
-			"icon": "./src/assets/products/social-media.svg"
+			"icon": "./assets/products/social-media.svg"
 		}
 	],
 	"pricing": [
@@ -122,21 +122,21 @@
 			"number": "01",
 			"title": "Create Account",
 			"description": "Sign up for free in seconds. No credit card required to get started.",
-			"icon": "./src/assets/products/account.svg"
+			"icon": "./assets/products/account.svg"
 		},
 		{
 			"id": 2,
 			"number": "02",
 			"title": "Choose Products",
 			"description": "Browse our catalog and select the tools that fit your needs.",
-			"icon": "./src/assets/products/package.svg"
+			"icon": "./assets/products/package.svg"
 		},
 		{
 			"id": 3,
 			"number": "03",
 			"title": "Start Creating",
 			"description": "Download and start using your premium tools immediately.",
-			"icon": "./src/assets/products/create.svg"
+			"icon": "./assets/products/create.svg"
 		}
 	],
 	"stats": [
