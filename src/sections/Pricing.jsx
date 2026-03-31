@@ -65,7 +65,6 @@ const Pricing = () => {
 			id="pricing"
 			className="py-20 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				{/* Section Header */}
 				<div className="text-center mb-16">
 					<h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
 						Simple, Transparent Pricing
@@ -75,7 +74,6 @@ const Pricing = () => {
 					</p>
 				</div>
 
-				{/* Pricing Cards */}
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
 					{pricing.map((plan) => (
 						<div
@@ -85,7 +83,6 @@ const Pricing = () => {
 									"bg-linear-to-l from-violet-600 to-indigo-600 text-white shadow-xl shadow-indigo-200 scale-105"
 								:	"bg-white border border-gray-200 text-gray-900 hover:shadow-lg"
 							}`}>
-							{/* Popular Badge */}
 							{plan.popular && (
 								<div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
 									<span className="bg-amber-200 text-amber-900 px-4 py-1 rounded-full text-sm font-semibold">
@@ -94,7 +91,6 @@ const Pricing = () => {
 								</div>
 							)}
 
-							{/* Plan Header */}
 							<div className="text-left mb-8">
 								<h3
 									className={`text-xl font-bold mb-2 ${plan.popular ? "text-white" : "text-gray-900"}`}>
@@ -106,7 +102,6 @@ const Pricing = () => {
 								</p>
 							</div>
 
-							{/* Price */}
 							<div className="text-left mb-8">
 								<div className="flex items-center">
 									<span
@@ -120,7 +115,6 @@ const Pricing = () => {
 								</div>
 							</div>
 
-							{/* Features */}
 							<ul className="space-y-4 mb-8">
 								{plan.features.map((feature, index) => (
 									<li
@@ -136,7 +130,6 @@ const Pricing = () => {
 								))}
 							</ul>
 
-							{/* CTA Button */}
 							<button
 								onClick={() => handlePlanSelect(plan)}
 								className={`w-full py-3 rounded-xl font-semibold transition-all  ${
