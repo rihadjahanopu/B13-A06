@@ -6,7 +6,8 @@ import data from "../data/products.json";
 const Products = () => {
 	const [activeTab, setActiveTab] = useState("products");
 	const [activeFilter] = useState("All");
-	const { cartItems, addToCart, removeFromCart, getCartTotal } = useCart();
+	const { cartItems, addToCart, removeFromCart, getCartTotal, clearCart } =
+		useCart();
 
 	const filteredProducts =
 		activeFilter === "All" ?
@@ -67,6 +68,7 @@ const Products = () => {
 				autoClose: 4000,
 			}
 		);
+		clearCart();
 	};
 
 	const getBadgeColor = (badge) => {

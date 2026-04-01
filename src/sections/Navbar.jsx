@@ -1,5 +1,6 @@
 import { Menu, ShoppingCart, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import logo from "../../public/assets/products/logo.svg";
 import { useCart } from "../context/CartContext";
 
@@ -8,7 +9,8 @@ const Navbar = () => {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 	const [isCartOpen, setIsCartOpen] = useState(false);
 
-	const { cartItems, getCartCount, getCartTotal, removeFromCart } = useCart();
+	const { cartItems, getCartCount, getCartTotal, removeFromCart, clearCart } =
+		useCart();
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -32,6 +34,25 @@ const Navbar = () => {
 			element.scrollIntoView({ behavior: "smooth" });
 		}
 		setIsMobileMenuOpen(false);
+	};
+
+	const handleCheckout = () => {
+		toast.success(
+			<div className="flex items-center gap-3">
+				<div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+					<i className="fas fa-credit-card text-green-600"></i>
+				</div>
+				<div>
+					<p className="font-semibold text-gray-900">Proceeding to Checkout!</p>
+					<p className="text-sm text-gray-500">Total: ${getCartTotal()}</p>
+				</div>
+			</div>,
+			{
+				position: "bottom-right",
+				autoClose: 4000,
+			}
+		);
+		clearCart();
 	};
 
 	const cartCount = getCartCount();
@@ -201,8 +222,12 @@ const Navbar = () => {
 										${cartTotal.toFixed(2)}
 									</span>
 								</div>
-								<button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-full font-medium transition-colors">
-									Checkout
+								<button
+									onClick={handleCheckout}
+									className="mt-6 w-full py-4 rounded-full text-white font-semibold text-lg
+                    bg-linear-to-r from-indigo-500 to-purple-600
+                    hover:opacity-90 transition-all shadow-md">
+									Proceed To Checkout
 								</button>
 							</div>
 						)}
