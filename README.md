@@ -16,17 +16,17 @@ Digitools is a modern web platform that provides a curated collection of premium
 ✨ Key Features
 
 
-1. 🛒 Smart Cart System
-Add/remove products dynamically
-Real-time total calculation
-Checkout flow with toast notifications
-2. 🤖 AI-Powered Digital Tools
-Access tools like AI Writing, Automation Toolkit
-Boost productivity with ready-made solutions
-3. 🎨 Premium UI/UX Design
-Modern responsive design
-Smooth animations & transitions
-Clean product showcase layout
+1. 🛒 Smart Cart System<br/>
+Add/remove products dynamically <br/>
+Real-time total calculation<br/>
+Checkout flow with toast notifications<br/>
+2. 🤖 AI-Powered Digital Tools <br/>
+Access tools like AI Writing, Automation Toolkit<br/>
+Boost productivity with ready-made solutions<br/>
+3. 🎨 Premium UI/UX Design<br/>
+Modern responsive design<br/>
+Smooth animations & transitions<br/>
+Clean product showcase layout<br/>
 
 
 📊 Project Highlights
