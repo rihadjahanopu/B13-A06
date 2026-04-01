@@ -1,10 +1,10 @@
-## 🚀 Digitools – Premium Digital Tools Platform
+# 🚀 Digitools – Premium Digital Tools Platform
 
-🧾 Description
+## 🧾 Description
 
 Digitools is a modern web platform that provides a curated collection of premium digital tools, AI-powered solutions, <br/>design assets, and productivity resources—all in one place. It helps creators, <br/>developers, and professionals streamline their workflow and boost productivity with powerful, ready-to-use tools.
 
-🛠️ Technologies Used<br/>
+## 🛠️ Technologies Used<br/>
 ⚛️ React.js<br/>
 🎨 Tailwind CSS<br/>
 🧠 Context API (State Management)<br/>
@@ -13,14 +13,14 @@ Digitools is a modern web platform that provides a curated collection of premium
 ✨ Key Features<br/>
 
 
-1. 🛒 Smart Cart System<br/>
+## 1. 🛒 Smart Cart System<br/>
 Add/remove products dynamically <br/>
 Real-time total calculation<br/>
 Checkout flow with toast notifications<br/>
-2. 🤖 AI-Powered Digital Tools <br/>
+## 2. 🤖 AI-Powered Digital Tools <br/>
 Access tools like AI Writing, Automation Toolkit<br/>
 Boost productivity with ready-made solutions<br/>
-3. 🎨 Premium UI/UX Design<br/>
+## 3. 🎨 Premium UI/UX Design<br/>
 Modern responsive design<br/>
 Smooth animations & transitions<br/>
 Clean product showcase layout<br/>
@@ -39,16 +39,19 @@ cd digitools
 npm install
 npm run dev
 ```
-📸 Preview<br/>
+## 📸 Preview<br/>
 
 Clean UI with product listing, cart system, and pricing section.
 
-📬 Contact<br/>
+## 📬 Contact<br/>
 
 For collaboration or queries:<br/>
-📧 your-email@example.com<br/>
+* :e-mail: &emsp;You can contact me at [`itrihad@gmail.com`](mailto:itrihad@gmail.com)<br/>
+* 🏢 &emsp;Fun fact: I founded my Software Solution company  Gladepik.
+* 🌍 &emsp;I'm based in Bangladesh
+* 🖥️ &emsp;See my portfolio at [`Website`](http://rihadjahanopu.com)
 
-📄 License<br/>
+## 📄 License<br/>
 
 This project is licensed under the MIT License.<br/>
 
